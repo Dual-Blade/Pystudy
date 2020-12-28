@@ -1,5 +1,7 @@
+# %%
 import pandas as pd
 
-a = pd.DataFrame('iris.csv')
+a = pd.read_csv('iris.csv')
+print(a)
 
-
+# %%
